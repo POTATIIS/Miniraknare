@@ -1,4 +1,15 @@
+def plus(x, y):
+    return x + y
 
+def minus(x, y):
+    return x - y    
+
+def gånger(x, y):
+    return x * y    
+
+def delat(x, y):
+    return x / y
+            
 print("Välj alternativ. ")
 print("1.plus")    
 print("2.minus")
@@ -29,7 +40,7 @@ while True:
     elif alternativ == '4':
         print(nummer1, "/", nummer2, "=", delat(nummer1, nummer2))
         break
-    
+
     else:
         print("Försök igen")
   
